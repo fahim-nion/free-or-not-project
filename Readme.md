@@ -73,7 +73,9 @@ This tells you that **Friend 1** is ```free for 1 hour and 20 minutes,``` and **
 2. Modify the **schedules** dictionary to include the class schedules of your friends.
 3. Run the script, and it will print out the availability of each friend based on the current time.
 4. You can also go here and run the code here:
-``` https://colab.research.google.com/drive/1WltSJ9vV9483o0iGnkG1BSgsqXdFQwLV?usp=sharing ```
+```bash
+ https://colab.research.google.com/drive/1WltSJ9vV9483o0iGnkG1BSgsqXdFQwLV?usp=sharing 
+ ```
 
 Example usage:
 
