@@ -1,6 +1,6 @@
 
 from datetime import datetime, timedelta
-sigmas = ['Sinan', 'Soumo', 'Nasim', 'Rubayet', 'Imran', 'Raihan', 'Fahim', 'Jaky', 'Samir']
+sigmas = ['Sinan', 'Soumo', 'Nasim', 'Rubayet', 'Imran', 'Raihan', 'Fahim', 'Jaky', 'Samir',"Roxy"]
 
 schedules = {
     "Sinan": {
@@ -67,21 +67,30 @@ schedules = {
         "Friday":[],
     },
     "Jaky": {
-        "Saturday":[],
-        "Sunday": [("09:30AM", "01:50PM")],
-        "Monday": [("11:00AM", "01:50PM")],
-        "Tuesday":[("09:30AM", "01:50PM")],
-        "Wednesday":[],
+        "Saturday":[("02:00PM","04:50PM")],
+        "Sunday": [("11:00AM", "01:50PM")],
+        "Monday": [("08:00AM", "12:20PM"),("02:00PM", "03:20AM")],
+        "Tuesday":[("11:00AM", "01:50PM")],
+        "Wednesday":[("11:00AM", "12:20PM"),("02:00PM", "03:20AM")],
         "Thursday":[],
         "Friday":[],
     },
     "Samir": {
-        "Saturday":[],
-        "Sunday": [("09:30AM", "01:50PM")],
-        "Monday": [("11:00AM", "01:50PM")],
-        "Tuesday":[("09:30AM", "01:50PM")],
+        "Saturday":[("08:00AM", "10:50AM")],
+        "Sunday": [("09:30AM", "10:50PM"),("12:30PM","01:50PM")],
+        "Monday": [("08:00AM", "10:50AM"),("02:00PM",("05:00PM")],
+        "Tuesday":[("09:30AM", "10:50PM"),("12:30PM","01:50PM")],
         "Wednesday":[],
-        "Thursday":[],
+        "Thursday":[("08:00AM", "10:50AM")],
+        "Friday":[],
+    },
+    "Roxy": {
+        "Saturday":[("12:30PM","01:50PM")],
+        "Sunday": [("08:00AM", "09:20AM")],
+        "Monday": [("08:00AM", "09:20AM")],
+        "Tuesday":[("08:00AM", "09:20AM")],
+        "Wednesday":[("08:00AM", "09:20AM")],
+        "Thursday":[("12:30PM","01:50PM")],
         "Friday":[],
     },
 }
