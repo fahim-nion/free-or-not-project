@@ -78,7 +78,7 @@ schedules = {
     "Samir": {
         "Saturday":[("08:00AM", "10:50AM")],
         "Sunday": [("09:30AM", "10:50PM"),("12:30PM","01:50PM")],
-        "Monday": [("08:00AM", "10:50AM"),("02:00PM",("05:00PM")],
+        "Monday": [("08:00AM", "10:50AM"),("02:00PM","05:00PM")],
         "Tuesday":[("09:30AM", "10:50PM"),("12:30PM","01:50PM")],
         "Wednesday":[],
         "Thursday":[("08:00AM", "10:50AM")],

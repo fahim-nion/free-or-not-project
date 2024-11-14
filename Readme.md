@@ -1,7 +1,7 @@
 # Friend Availability Tracker
 
 ## Updates 🚀
-I have managed to convert this code with **JAVASCRIPT** and implemented this into a website. Check here :
+I have managed to convert this code with **JAVASCRIPT** and implemented into a website. Check here :
 ```bash
 
 ```
