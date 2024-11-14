@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const sigmas = ['Sinan', 'Soumo', 'Nasim', 'Rubayet', 'Imran', 'Raihan', 'Fahim', 'Jaky', 'Samir'];
+    const sigmas = ['Sinan', 'Soumo', 'Nasim', 'Rubayet', 'Imran', 'Raihan', 'Fahim', 'Jaky', 'Samir','Roxy'];
 
     const schedules = {
         "Sinan": {
@@ -66,21 +66,30 @@ document.addEventListener("DOMContentLoaded", function () {
             "Friday": []
         },
         "Jaky": {
-            "Saturday": [["11:00AM", "01:00PM"]],
-            "Sunday": [["02:30PM", "04:30PM"]],
-            "Monday": [["09:00AM", "11:00AM"]],
-            "Tuesday": [["03:00PM", "05:00PM"]],
-            "Wednesday": [["01:00PM", "03:00PM"]],
+            "Saturday": [["02:00PM", "04:50PM"]],
+            "Sunday": [["11:00AM", "01:50PM"]],
+            "Monday": [["08:00AM", "12:20PM"], ["02:00PM", "03:20AM"]],
+            "Tuesday": [["11:00AM", "01:50PM"]],
+            "Wednesday": [["11:00AM", "12:20PM"], ["02:00PM", "03:20AM"]],
             "Thursday": [],
             "Friday": []
         },
         "Samir": {
-            "Saturday": [["01:00PM", "03:00PM"]],
-            "Sunday": [["03:00PM", "05:00PM"]],
-            "Monday": [["08:00AM", "10:00AM"]],
-            "Tuesday": [["02:00PM", "04:00PM"]],
-            "Wednesday": [["12:00PM", "02:00PM"]],
-            "Thursday": [],
+            "Saturday": [["08:00AM", "10:50AM"]],
+            "Sunday": [["09:30AM", "10:50PM"], ["12:30PM", "01:50PM"]],
+            "Monday": [["08:00AM", "10:50AM"], ["02:00PM", "05:00PM"]],
+            "Tuesday": [["09:30AM", "10:50PM"], ["12:30PM", "01:50PM"]],
+            "Wednesday": [],
+            "Thursday": [["08:00AM", "10:50AM"]],
+            "Friday": []
+        },
+        "Roxy": {
+            "Saturday": [["12:30PM", "01:50PM"]],
+            "Sunday": [["08:00AM", "09:20AM"]],
+            "Monday": [["08:00AM", "09:20AM"]],
+            "Tuesday": [["08:00AM", "09:20AM"]],
+            "Wednesday": [["08:00AM", "09:20AM"]],
+            "Thursday": [["12:30PM", "01:50PM"]],
             "Friday": []
         }
     };

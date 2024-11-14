@@ -1,5 +1,11 @@
 # Friend Availability Tracker
 
+## Updates 🚀
+I have managed to convert this code with **JAVASCRIPT** and implemented this into a website. Check here :
+```bash
+
+```
+
 ## Project Overview 📚🌐💻
 
 Welcome to the **Friend Availability Tracker**! This project helps to determine if your friends are available to meet based on their busy schedules. With the hectic nature of university life, it's difficult to find time to meet up with friends. This tool helps you find out when your friends are free, and how long they are available for. 
