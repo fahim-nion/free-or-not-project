@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Lilita+One&display=swap');
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Agdasima', sans-serif;
+    background-color: #575757;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333333;
+    overflow: hidden;
+}
+
+.main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(1px);
+}
+
+.output {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 700px;
+    background-color: rgba(234, 234, 234, 0.647);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 30px rgba(9, 231, 120, 0.455);
+    text-align: center;
+}
+
+.free, .in-class {
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #333;
+}
+
+.free {
+    color: #065b19;
+    font-family: "Lilita One", sans-serif;
+    text-shadow: black;
+    font-size: 25px;
+}
+
+.in-class {
+    color: #ad0600;
+    font-family: "Lilita One", sans-serif;
+    font-size: 25px;
+}
+
+/* Desktop and Laptop Styles */
+@media (min-width: 1024px) {
+    .one, .two {
+        z-index: 999;
+        width: 50%;
+        opacity: 0.9;
+        max-width: 250px;
+        position: relative;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+    }
+
+    .one {
+        top: 230px;
+        animation-name: cloud;
+    }
+
+    .two {
+        bottom: -331px;
+        animation-name: cloud2;
+    }
+
+    @keyframes cloud {
+        from {
+            transform: translateX(20%);
+        }
+        to {
+            transform: translateX(80%);
+        }
+    }
+
+    @keyframes cloud2 {
+        from {
+            transform: translateX(365%);
+        }
+        to {
+            transform: translateX(336%);
+        }
+    }
+}
+
+/* For Mobile Screens (Under 1024px) */
+@media (max-width: 1023px) {
+    .one, .two {
+        animation: none; /* Disable animation */
+        width: 0%; /* Adjust size for smaller screens */
+        max-width: 200px;
+    }
+
+    .output {
+        width: 90%;
+        padding: 15px;
+    }
+}
