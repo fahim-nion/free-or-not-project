@@ -3,7 +3,7 @@
 ## Updates 🚀
 I have managed to convert this code with **JAVASCRIPT** and implemented into a website. Check here :
 ```bash
-
+    https://bhaijaan-koi.netlify.app/
 ```
 
 ## Project Overview 📚🌐💻
@@ -97,3 +97,5 @@ current_time = now.strftime("%I:%M%p")
 free_friends_info = find_free_friends(current_day, current_time)
 for name, duration in free_friends_info:
     print(f"{name} is free now at {current_time} for {hours} hours and {minutes} minutes.")
+```
+feel free to give me recommendations.
